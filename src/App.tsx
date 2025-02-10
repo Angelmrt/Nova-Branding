@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import ButtonComponent from './componentes/ButtonComponent'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <div>
         <h1 className=''>Cipote</h1>
+        <ButtonComponent text='Cipote' />
       </div>
       <h1>Vite + React</h1>
       <div className="card">
